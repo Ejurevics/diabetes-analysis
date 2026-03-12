@@ -1,0 +1,51 @@
+# Environment
+.venv/
+.env
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data (dados sensíveis/pesados)
+# 01_data/raw/
+# 01_data/processed/
+# *.csv
+# *.xlsx
+# *.parquet
+# *.json
+
+# Reports e outputs gerados
+05_reports/images/
+*.png
+*.pdf
+*.html
+
+# Power BI
+06_powerbi/*.pbix
+
+# SQL
+04_sql/queries/*.sql   # remova se quiser versionar as queries
+
+# IDEs
+.vscode/
+.idea/
+
+# UV
+uv.lock
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
